@@ -1,13 +1,60 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+
+body{
+    background: black;
+}
+.title {
+
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif,cursive ;
+    font-size: 100px;
+    color: pink;
+
+}
+
+.container {
+    margin-top: 30px;
+    width: 700px;
+    height: 650px;
+    background-color: snow;
+
+}
+
+.fields {
+    margin: auto;
+    width:60%;
+    height:30px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif,cursive ;
+
+}
+.list-group{
+    box-shadow: 18px 21px 9px -12px rgba(181,178,152,1);
+    list-style-type: none;
+    border-bottom: 1px solid #adadad;
+}
+
+.far {
+    float: right;
+    padding-right: 15px;
+    visibility:hidden;
+}
+li:hover > .far {
+ visibility:visible;
+}
+/*
+
+
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
